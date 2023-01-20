@@ -1,0 +1,161 @@
+@media screen and (max-width:992px) {
+   .navbar{
+    display: none;
+   }
+   .leftContainer{
+    display: none;
+   }
+   .rightContainer{
+    position: relative;
+    left: 0px;
+    border: 1px solid  rgb(238, 235, 235);
+    box-sizing: border-box;
+    background-color: rgb(238, 235, 235);
+    width: 100%;
+}
+    .navbarMobile{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content:space-between;
+        position:sticky;
+        width: 100%;
+        box-sizing: border-box;
+        top: 0;
+        z-index: 2;
+        padding: 10px 5px;
+    }
+    #lSecondBoxClose{
+        background-color: #333;
+        color: white;
+        padding: 12px 0px;
+    }
+    #lSecondBoxClose i{
+        padding: 0px 18px;
+    }
+    .boxMobile{
+        /* border: 10px solid blue; */
+        position:fixed;
+        z-index: 2;
+        height: 100%;
+        box-sizing: border-box;
+        top: auto;
+        width: 100%;
+        background-color: rgb(0, 0, 0,0.2);
+    }
+    .navbarMobile a{
+        cursor: pointer;
+        display: block;
+    }
+    .navbarMobile i{
+        padding: 0px 15px;
+    }
+    .navbarMobile p{
+        font-size:20px;
+        padding: 0px 10 px;
+    }
+    .leftContainerMobile{
+        position:fixed;
+        top: inherit;
+        background-color: white;
+        height: inherit;
+        width: 300px;
+    }
+    .lFirstBoxMobile{
+        padding: 20px 0px;
+        width: 100%;
+        display:flex;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .lFirstBImg{
+        width: 35%;
+        text-align: center;
+    }
+    .lFirstBImg img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .lFirstBContent{
+        width: 65%;
+        box-sizing: border-box;
+    }
+    .lFirstBContent i{
+        margin: 2px 0px;
+        padding: 15px 12px;
+    }
+    .lFirstBContent i:hover{
+        cursor: pointer;
+        background-color: #ddd;
+    }
+    .lSecondBoxMobile{
+        display: block;
+        padding: 15px 0px;
+    }
+    .lSecondBoxMobile p{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .lSecondBoxMobile ul{
+        text-align: left;
+        list-style-type: none;
+    }
+    .lSecondBoxMobile li{
+        padding: 10px 0px;
+    }
+    #lSecondBoxFirst{
+        color: white;
+        background-color: rgb(69, 176, 211);
+    }
+    .lSecondBoxMobile li:hover{
+        cursor: pointer;
+        color: black !important;
+        background-color: #ddd !important;
+    }
+    .lSecondBoxMobile li i{
+        padding: 0px 15px;
+       
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar{
+        display: none;
+       }
+       .leftContainer{
+        display: none;
+       }
+       .dashboardBox{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .regionAndFeed{
+        width: 100%;
+        display: flex;
+        padding: 15px 15px;
+       flex-wrap: wrap;
+    }
+    .region{
+        width: 100%;
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .feeds{
+        width: 100%;
+    }
+    .recentCommentContainer{
+        /* border: 1px solid; */
+        margin: 15px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recentImg{
+        width: 20%;
+    }
+    .recentCommentContent{
+        width: 100%;
+    }
+    .listBox{
+        width: 98%;
+    }
+}

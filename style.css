@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    text-align:right;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    padding: 10px 15px;
+}
+.navbarMobile{
+    display: none;
+}
+.boxMobile{
+    display: none;
+}
+.lFirstBoxMobile{
+    display: none;
+}
+.lSecondBoxMobile{
+    display: none;
+}
+.navbar p{
+    font-size:20px;
+}
+.leftContainer{
+    position: fixed;
+    /* border: 1px solid; */
+    top: auto;
+    height: 100%;
+    width: 300px;
+}
+.lFirstBox{
+    padding: 20px 0px;
+    width: 100%;
+    display:flex;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.lFirstBImg{
+    width: 35%;
+    text-align: center;
+}
+.lFirstBImg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.lFirstBContent{
+    width: 65%;
+    box-sizing: border-box;
+}
+.lFirstBContent i{
+    margin: 2px 0px;
+    padding: 15px 12px;
+}
+.lFirstBContent i:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+.lSecondBox{
+    padding: 15px 0px;
+}
+.lSecondBox p{
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.lSecondBox ul{
+    text-align: left;
+    list-style-type: none;
+}
+.lSecondBox li{
+    padding: 10px 0px;
+}
+#lSecondBoxFirst{
+    color: white;
+    background-color: rgb(69, 176, 211);
+}
+.lSecondBox li:hover{
+    cursor: pointer;
+    color: black !important;
+    background-color: #ddd !important;
+}
+.lSecondBox li i{
+    padding: 0px 15px;
+   
+}

@@ -1,0 +1,311 @@
+.rightContainer{
+    position: relative;
+    left: 300px;
+    border: 1px solid  rgb(238, 235, 235);
+    box-sizing: border-box;
+    background-color: rgb(238, 235, 235);
+    width: calc( 100% - 300px);
+}
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 25px 15px;
+}
+.dashboard p{
+    padding: 10px 0px;
+    width: 100%;
+}
+.dashboard p i{
+    padding: 0px 2px;
+}
+.dashboardBox{
+    width: 24%;
+    padding: 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.dashboardBox i{
+    font-size: 50px;
+    color: white;
+}
+.dashboardBox span{
+    font-size: 20px;
+    color: white;
+}
+.dashboardBox p{
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+}
+.boardBox1{
+    background-color: rgb(239, 52, 52);
+}
+.boardBox2{
+    background-color: rgb(81, 182, 216);
+}
+.boardBox3{
+    background-color: rgb(30, 218, 108);
+}
+.boardBox4{
+    background-color: rgb(232, 135, 44);
+}
+.regionAndFeed{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 15px 0px;
+}
+.region{
+    width: 33%;
+    background-color: white;
+    box-sizing: border-box;
+}
+.region p{
+    padding: 10px 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color:  rgb(238, 235, 235);
+}
+
+.region img{
+    width: 100%;
+    padding: auto 0px;
+}
+.feeds{
+    width: 63%;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+.feeds p{
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.feeds ul{
+    margin: 0px 0px 20px 0px;
+    list-style-type: none;
+}
+.feeds ul li{
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+li:nth-child(odd){
+    background-color: white;
+}
+.feedFirst{
+    text-align: left;
+    width: 20%;
+    /* padding: 0px 20px 0px 0px; */
+}
+.feedSecond{
+    width: 50%;
+    text-align: left;
+    /* padding: 0px 10px 0px 50px; */
+}
+.feedThird{
+    width: 20%;
+    text-align: right;
+    /* border: 1px solid; */
+}
+.general{
+    margin: 30px 0px;
+    width: 100%;
+    padding: 0px 20px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+#generalFirst{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.generalLast{
+    width: 100%;
+    margin: 15px 0px;
+    background-color: #aaa;
+}
+.generalLast span{
+    display: block;
+    padding: 10px 20px;
+}
+#spanFirst{
+    width: 25%;
+    color: white;
+    text-align: center;
+    background-color: rgb(13, 122, 13);
+}
+#spanSecond{
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: rgb(226, 158, 33);
+}
+#spanThird{
+    width: 75%;
+    color: white;
+    text-align: center;
+    background-color: rgb(253, 68, 68);
+}
+.countries{
+    margin: 30px 0px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.countries p{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.countries ul{
+    list-style: none;
+    border-collapse: collapse;
+    border:1px solid #aaa;
+}
+.countries ul li{
+    display: flex;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.countries ul li:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+.countries ul li:nth-child(even){
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.countries button{
+    margin: 20px 0px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+.countries button i{
+    padding: 0px 5px;
+}
+
+.countries ul li span:nth-child(odd){
+    width: 65%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: block;
+}
+.countries button:hover{
+    background-color: #aaa;
+    color: black;
+    cursor: pointer;
+}
+.recent{
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.recent p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.recentBoxContainer{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #aaa;
+}
+.recentBoxFull{
+    display: flex;
+    width: 100%;
+}
+.recentBox{
+    padding: 10px 15px;
+    width: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #aaa;
+    background-color: white;
+}
+.recentBox img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.recentBoxContent p{
+    font-size: 22px;
+}
+.recentBoxContent{
+    width:calc( 100% - 70px);
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+}
+.recentComment{
+    margin: 40px 0px;
+    padding: 0px 20px;
+}
+.recentComment p{
+    font-size: 20px;
+}
+.recentCommentContainer{
+    /* border: 1px solid; */
+    margin: 15px 0px;
+    display: flex;
+}
+.recentImg{
+    width: 20%;
+}
+.recentCommentContent{
+    width: 80%;
+}
+.recentImg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.recentCommentContent span:nth-child(odd){
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.recentCommentContent span:nth-child(even){
+    color: rgb(121, 120, 120);
+    font-size: 16px;
+}
+.recentCommentContent p:nth-child(even){
+    padding: 20px 0px;
+    font-size: 16px;
+}
+.list{
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+}
+.listBox{
+    width: 31%;
+}
+.listBox p{
+    margin: 15px 0px;
+}
+#listBoxFirst{
+    font-size: 20px;
+    border-bottom: 5px solid green;
+}
+#listBoxSecond{
+    font-size: 20px;
+    border-bottom: 5px solid red;
+}
+#listBoxThird{
+    font-size: 20px;
+    border-bottom: 5px solid orange;
+}
+footer{
+    padding: 20px 20px;
+}
+footer p:nth-child(odd){
+    padding: 15px 0px;
+    font-size: 20px;
+}
