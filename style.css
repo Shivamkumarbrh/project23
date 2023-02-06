@@ -46,6 +46,7 @@
 }
 .lFirstBImg img{
     width: 50px;
+    object-fit: cover;
     height: 50px;
     border-radius: 50%;
 }
